@@ -1,0 +1,585 @@
+MODEL "lif/9symml";
+
+INPUT
+	"1"	:	"1"
+	"2"	:	"2"
+	"3"	:	"3"
+	"4"	:	"4"
+	"5"	:	"5"
+	"6"	:	"6"
+	"7"	:	"7"
+	"8"	:	"8"
+	"9"	:	"9";
+
+OUTPUT
+	"52"	:	"[383]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"9";
+	"O"	:	"[721]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"8";
+	"O"	:	"[720]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"8";
+	"b"	:	"[721]";
+	"c"	:	"7";
+	"d"	:	"[720]";
+	"O"	:	"[723]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"7";
+	"O"	:	"[722]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"8";
+	"b"	:	"[722]";
+	"c"	:	"7";
+	"d"	:	"[720]";
+	"O"	:	"[728]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[728]";
+	"O"	:	"[970]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"3";
+	"O"	:	"[734]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"5";
+	"O"	:	"[732]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"4";
+	"O"	:	"[724]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"6";
+	"b"	:	"[732]";
+	"c"	:	"5";
+	"d"	:	"[724]";
+	"O"	:	"[739]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[734]";
+	"b"	:	"9";
+	"c"	:	"[739]";
+	"O"	:	"[297]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"5";
+	"b"	:	"[724]";
+	"c"	:	"4";
+	"d"	:	"[732]";
+	"O"	:	"[737]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"[737]";
+	"b"	:	"[734]";
+	"c"	:	"9";
+	"O"	:	"[1238]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[970]";
+	"b"	:	"[297]";
+	"c"	:	"[1238]";
+	"O"	:	"[1116]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"4";
+	"b"	:	"[734]";
+	"c"	:	"3";
+	"d"	:	"[724]";
+	"O"	:	"[741]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"1";
+	"O"	:	"[729]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"4";
+	"b"	:	"[729]";
+	"c"	:	"1";
+	"d"	:	"[724]";
+	"O"	:	"[730]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[730]";
+	"O"	:	"[1009]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[741]";
+	"b"	:	"[1009]";
+	"c"	:	"[730]";
+	"d"	:	"9";
+	"O"	:	"[629]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"9";
+	"b"	:	"[741]";
+	"c"	:	"[629]";
+	"O"	:	"[1120]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[737]";
+	"O"	:	"[958]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[739]";
+	"b"	:	"[958]";
+	"O"	:	"[740]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[740]";
+	"O"	:	"[1066]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[1116]";
+	"b"	:	"1";
+	"c"	:	"[1120]";
+	"d"	:	"[1066]";
+	"O"	:	"[620]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"[728]";
+	"b"	:	"[730]";
+	"O"	:	"[672]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"[672]";
+	"b"	:	"[722]";
+	"c"	:	"4";
+	"d"	:	"6";
+	"O"	:	"[1230]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"[1398]";
+	"b"	:	"[730]";
+	"c"	:	"3";
+	"O"	:	"[1232]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"[620]";
+	"b"	:	"[1230]";
+	"c"	:	"[1232]";
+	"O"	:	"[744]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"[728]";
+	"b"	:	"[744]";
+	"O"	:	"[611]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[734]";
+	"b"	:	"2";
+	"c"	:	"[730]";
+	"O"	:	"[300]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[729]";
+	"b"	:	"[741]";
+	"O"	:	"[746]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[300]";
+	"b"	:	"[723]";
+	"c"	:	"[746]";
+	"O"	:	"[1122]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[723]";
+	"b"	:	"[611]";
+	"c"	:	"[720]";
+	"d"	:	"[1122]";
+	"O"	:	"[29]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"[29]";
+	"b"	:	"[732]";
+	"c"	:	"[739]";
+	"O"	:	"[303]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[729]";
+	"b"	:	"3";
+	"O"	:	"[750]";
+
+INSTANCE "nor4":"physical"
+	"a"	:	"5";
+	"b"	:	"[750]";
+	"c"	:	"[970]";
+	"d"	:	"[721]";
+	"O"	:	"[301]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[732]";
+	"b"	:	"2";
+	"O"	:	"[754]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"2";
+	"O"	:	"[747]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"7";
+	"b"	:	"[747]";
+	"c"	:	"[734]";
+	"O"	:	"[1268]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"7";
+	"b"	:	"[754]";
+	"c"	:	"[1268]";
+	"O"	:	"[756]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"6";
+	"b"	:	"1";
+	"c"	:	"[721]";
+	"d"	:	"[756]";
+	"O"	:	"[1128]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[1128]";
+	"O"	:	"[1129]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"[303]";
+	"b"	:	"[301]";
+	"c"	:	"[1129]";
+	"O"	:	"[400]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[741]";
+	"O"	:	"[1000]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[970]";
+	"b"	:	"[1401]";
+	"O"	:	"[762]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"[723]";
+	"b"	:	"[970]";
+	"c"	:	"3";
+	"O"	:	"[1146]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[1000]";
+	"b"	:	"[762]";
+	"c"	:	"[1146]";
+	"O"	:	"[1086]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[721]";
+	"b"	:	"7";
+	"O"	:	"[764]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"8";
+	"b"	:	"9";
+	"O"	:	"[765]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[744]";
+	"b"	:	"[765]";
+	"c"	:	"[762]";
+	"O"	:	"[766]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[766]";
+	"O"	:	"[1072]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"[958]";
+	"b"	:	"[764]";
+	"c"	:	"1";
+	"d"	:	"[1072]";
+	"O"	:	"[1088]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"6";
+	"O"	:	"[725]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[725]";
+	"b"	:	"3";
+	"O"	:	"[763]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[763]";
+	"O"	:	"[1057]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[739]";
+	"b"	:	"[1086]";
+	"c"	:	"[1088]";
+	"d"	:	"[1057]";
+	"O"	:	"[395]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"[739]";
+	"b"	:	"[756]";
+	"O"	:	"[325]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[728]";
+	"b"	:	"[739]";
+	"c"	:	"[325]";
+	"O"	:	"[287]";
+
+INSTANCE "nand3":"physical"
+	"a"	:	"[1401]";
+	"b"	:	"[729]";
+	"c"	:	"3";
+	"O"	:	"[1166]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[287]";
+	"b"	:	"[764]";
+	"c"	:	"[1166]";
+	"O"	:	"[770]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[741]";
+	"b"	:	"[723]";
+	"c"	:	"[770]";
+	"O"	:	"[285]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[285]";
+	"O"	:	"[1094]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"7";
+	"b"	:	"[1066]";
+	"c"	:	"5";
+	"d"	:	"[1401]";
+	"O"	:	"[283]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[722]";
+	"b"	:	"6";
+	"O"	:	"[773]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[766]";
+	"b"	:	"[773]";
+	"c"	:	"[763]";
+	"O"	:	"[1096]";
+
+INSTANCE "nor4":"physical"
+	"a"	:	"6";
+	"b"	:	"[722]";
+	"c"	:	"[739]";
+	"d"	:	"[756]";
+	"O"	:	"[317]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[723]";
+	"b"	:	"[1096]";
+	"c"	:	"[317]";
+	"O"	:	"[533]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"[533]";
+	"O"	:	"[1341]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[756]";
+	"b"	:	"[29]";
+	"c"	:	"[1341]";
+	"O"	:	"[284]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"[283]";
+	"b"	:	"[746]";
+	"c"	:	"[1009]";
+	"d"	:	"[284]";
+	"O"	:	"[775]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[1094]";
+	"b"	:	"[1398]";
+	"c"	:	"[775]";
+	"O"	:	"[391]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[741]";
+	"b"	:	"[970]";
+	"O"	:	"[1214]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"6";
+	"b"	:	"[756]";
+	"O"	:	"[431]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"[744]";
+	"b"	:	"3";
+	"c"	:	"[725]";
+	"O"	:	"[348]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[763]";
+	"b"	:	"[431]";
+	"c"	:	"[348]";
+	"O"	:	"[421]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[1214]";
+	"b"	:	"[421]";
+	"O"	:	"[1114]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"7";
+	"b"	:	"[729]";
+	"c"	:	"[734]";
+	"O"	:	"[345]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[720]";
+	"b"	:	"[1066]";
+	"c"	:	"[345]";
+	"O"	:	"[293]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"[1398]";
+	"b"	:	"[728]";
+	"O"	:	"[294]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"[293]";
+	"b"	:	"[723]";
+	"c"	:	"[294]";
+	"d"	:	"[746]";
+	"O"	:	"[798]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[723]";
+	"b"	:	"[1114]";
+	"c"	:	"[798]";
+	"O"	:	"[408]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"4";
+	"b"	:	"[741]";
+	"O"	:	"[459]";
+
+INSTANCE "nand2":"physical"
+	"a"	:	"[725]";
+	"b"	:	"1";
+	"O"	:	"[791]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"[766]";
+	"b"	:	"[791]";
+	"c"	:	"3";
+	"d"	:	"[970]";
+	"O"	:	"[1106]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[766]";
+	"b"	:	"[459]";
+	"c"	:	"[737]";
+	"d"	:	"[1106]";
+	"O"	:	"[411]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"[721]";
+	"b"	:	"3";
+	"c"	:	"[739]";
+	"d"	:	"[764]";
+	"O"	:	"[1188]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"[734]";
+	"b"	:	"[732]";
+	"c"	:	"[730]";
+	"d"	:	"9";
+	"O"	:	"[1190]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"[408]";
+	"b"	:	"[411]";
+	"c"	:	"[1188]";
+	"d"	:	"[1190]";
+	"O"	:	"[1104]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"[763]";
+	"b"	:	"[958]";
+	"c"	:	"[729]";
+	"O"	:	"[329]";
+
+INSTANCE "nor4":"physical"
+	"a"	:	"4";
+	"b"	:	"[721]";
+	"c"	:	"[723]";
+	"d"	:	"[730]";
+	"O"	:	"[327]";
+
+INSTANCE "nor4":"physical"
+	"a"	:	"[725]";
+	"b"	:	"[732]";
+	"c"	:	"9";
+	"d"	:	"[970]";
+	"O"	:	"[328]";
+
+INSTANCE "nor3":"physical"
+	"a"	:	"[329]";
+	"b"	:	"[327]";
+	"c"	:	"[328]";
+	"O"	:	"[481]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"1";
+	"b"	:	"[725]";
+	"c"	:	"[958]";
+	"O"	:	"[1108]";
+
+INSTANCE "oai21":"physical"
+	"a"	:	"[970]";
+	"b"	:	"[721]";
+	"c"	:	"[762]";
+	"O"	:	"[1102]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[1108]";
+	"b"	:	"[1102]";
+	"c"	:	"[744]";
+	"O"	:	"[476]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[481]";
+	"b"	:	"[476]";
+	"c"	:	"2";
+	"O"	:	"[309]";
+
+INSTANCE "aoi21":"physical"
+	"a"	:	"[1104]";
+	"b"	:	"2";
+	"c"	:	"[309]";
+	"O"	:	"[386]";
+
+INSTANCE "nand4":"physical"
+	"a"	:	"[400]";
+	"b"	:	"[395]";
+	"c"	:	"[391]";
+	"d"	:	"[386]";
+	"O"	:	"[383]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"5";
+	"b"	:	"[725]";
+	"O"	:	"[1398]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"9";
+	"b"	:	"[720]";
+	"O"	:	"[1401]";
+
+ENDMODEL;

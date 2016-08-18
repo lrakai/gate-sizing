@@ -1,0 +1,45 @@
+MODEL "b1";
+
+INPUT
+	"a"	:	"a"
+	"b"	:	"b"
+	"c"	:	"c";
+
+OUTPUT
+	"d"	:	"c"
+	"e"	:	"[259]"
+	"f"	:	"[2]"
+	"g"	:	"[3]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"a";
+	"O"	:	"[274]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"b";
+	"O"	:	"[275]";
+
+INSTANCE "oai22":"physical"
+	"a"	:	"b";
+	"b"	:	"[274]";
+	"c"	:	"a";
+	"d"	:	"[275]";
+	"O"	:	"[259]";
+
+INSTANCE "inv":"physical"
+	"a"	:	"c";
+	"O"	:	"[3]";
+
+INSTANCE "aoi22":"physical"
+	"a"	:	"[3]";
+	"b"	:	"b";
+	"c"	:	"[274]";
+	"d"	:	"c";
+	"O"	:	"[254]";
+
+INSTANCE "nor2":"physical"
+	"a"	:	"[254]";
+	"b"	:	"[259]";
+	"O"	:	"[2]";
+
+ENDMODEL;
